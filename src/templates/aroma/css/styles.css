@@ -25,7 +25,7 @@ h6 {
   font-family: 'Raleway', sans-serif;
 }
 a {
-  color: #45aed6;
+  color: #2563eb;
   -webkit-transition: color 400ms, background-color 400ms;
   -moz-transition: color 400ms, background-color 400ms;
   -o-transition: color 400ms, background-color 400ms;
@@ -34,21 +34,21 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #2a95be;
+  color: ;
 }
 hr {
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #fff;
 }
 .gradiant {
-  background-image: -moz-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
-  background-image: -webkit-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
-  background-image: -ms-linear-gradient(90deg, #2caab3 0%, #2c8cb3 100%);
+  background-image: -moz-linear-gradient(90deg, #2563eb 0%, #2563eb 100%);
+  background-image: -webkit-linear-gradient(90deg, #2563eb 0%, #2563eb 100%);
+  background-image: -ms-linear-gradient(90deg, #2563eb 0%, #2563eb 100%);
 }
 .gradiant-horizontal {
-  background-image: -moz-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
-  background-image: -webkit-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
-  background-image: -ms-linear-gradient(4deg, #2caab3 0%, #2c8cb3 100%);
+  background-image: -moz-linear-gradient(4deg, #2563eb 0%, #2563eb 100%);
+  background-image: -webkit-linear-gradient(4deg, #2563eb 0%, #2563eb 100%);
+  background-image: -ms-linear-gradient(4deg, #2563eb 0%, #2563eb 100%);
 }
 .section-header {
   margin-bottom: 50px;
@@ -58,7 +58,7 @@ text-align:center;
 }
 .section-header .section-title {
   font-size: 44px;
-  color: #3B8838;
+  color: #2563eb;
   position: relative;
   padding-bottom: 20px;
   margin: 0 0 20px;  
@@ -80,7 +80,7 @@ text-align:center;
   left: 0;
   right: 0;
   height: 6px;
-  border-bottom: 3px solid #C6FDC4;
+  border-bottom: 3px solid #2563eb;
 }
 
 .btn {
@@ -88,11 +88,11 @@ text-align:center;
   border-radius: 0;
 }
 .btn.btn-primary {
-  background: #50A24C;
+  background: #2563eb;
 }
 .btn.btn-primary:hover,
 .btn.btn-primary:focus {
-  background: #409E3C;
+  background: #2563eb;
 }
 .listarrow{
 padding:0px;
@@ -112,7 +112,7 @@ color: #F9690E;
   border-bottom: 1px solid #eee;
   margin-bottom: 15px;
   position: relative;
-  color: #3B8838;
+  color: #2563eb;
 }
 .column-title:after {
   content: " ";
@@ -127,7 +127,7 @@ ul.nostyle {
   margin-bottom: 20px;
 }
 ul.nostyle i {
-  color: #45aed6;
+  color: #2563eb;
 }
 .scaleIn {
   -webkit-animation-name: scaleIn;
@@ -222,7 +222,7 @@ background: #FFF;
 
   #main-nav.navbar-default .navbar-nav > li.open > a,
   #main-nav.navbar-default .navbar-nav > li:hover > a {
-    background: #3B8838; 
+    background: #2563eb; 
 	
     color: #FFFFFF;
   
@@ -259,7 +259,7 @@ background: #FFF;
   #main-nav.navbar-default .dropdown-menu > li.active > a,
   #main-nav.navbar-default .dropdown-menu > li.open > a,
   #main-nav.navbar-default .dropdown-menu > li:hover > a {
-    color: #45aed6;
+    color:#2563eb;
     background-color: transparent;
   }
 }
@@ -317,12 +317,12 @@ text-align: center;
 width: 150px;
 margin: 0 auto;
 display: block;
-background: #71DE6C;
-border: 2px solid #71DE6C;
+background: #2563eb;
+border: 2px solid #2563eb;
 color: #020202;
 }
 #hero-banner.banner-inner h2 > span {
-  color: #45aed6;
+  color: #2563eb;
 }
 #hero-banner.banner-inner .btn {
   margin-top: 10px;
@@ -366,7 +366,7 @@ color: #020202;
 }
 #services, #features {
   padding: 100px 0 75px;
-  background-color: #98DC95;
+  background-color: #2563eb;
   border-top: 3px solid #fff;
   background: url('../images/img2.jpg');      background-size: cover;
 }
@@ -456,7 +456,7 @@ padding-top: 10px;
 }
 #portfolio .portfolio-item .portfolio-item-inner {
   position: relative;
-  border-bottom: 4px solid #98DC95;
+  border-bottom: 4px solid #2563eb;
 }
 #portfolio .portfolio-item .portfolio-item-inner .portfolio-info {
   opacity: 0;
@@ -483,7 +483,7 @@ padding-top: 10px;
   height: 60px;
   line-height: 36px;
   text-align: center;
-  color: #98DC95;
+  color: #2563eb;
   display:block;
   text-align: center;
 
@@ -566,12 +566,12 @@ margin-bottom: 15px;
   background: #222222;
   background-size: cover;
   padding: 100px 0;
-  color: #3B8838;
+  color: #2563eb;
   background: url('../images/img2.jpg');
   background-size: cover;
 }
 #testimonial h2{
-color: #3B8838;
+color: #2563eb;
 }
 #testimonial h4 {
   color: #fff;
@@ -600,10 +600,10 @@ margin: 0 8px;
 color:#fff;
 }
 #about p{
-color: #3B8837;
+color: #2563eb;
 }
 #about .listarrow li{
-color: #3B8838;
+color: #2563eb;
 }
 /*Team*/ 
 #our-team {
@@ -616,13 +616,13 @@ color: #3B8838;
   margin: 0;
 }
 #our-team .team-member .team-info { 
-  background: #98DC95;
-  color: #3B8838;
+  background: #2563eb;
+  color: #2563eb;
   padding: 7px 0;
   border-top: 2px solid #fff;
 } 
 #our-team .team-member:hover .social-icons > li > a {
-  color: #3B8838;
+  color: #2563eb;
 }
  
 #our-team .social-icons {
@@ -643,10 +643,10 @@ color: #3B8838;
   height: 32px;
   line-height: 32px;
   text-align: center;
-  color: #3B8838;
+  color: #2563eb;
   background: transparent;
   border-radius: 3px;
-  border: 1px solid #3B8838;
+  border: 1px solid #2563eb;
   margin: 5px 10px;
 }
 /*Testimonial Area*/
@@ -667,7 +667,7 @@ color: #3B8838;
 	font-size: 14px;
 	background: rgb(255, 255, 255);
 
-	color: #3B8837;
+	color: #2563eb;
 line-height: 22px;
 
 	border-radius: 5px;
@@ -690,7 +690,7 @@ line-height: 22px;
 .single-testimonial h5{
 	padding: 8px 0 0px;
 	font-size: 16px;
-	color: #3B8838;
+	color: #2563eb;
 }
  
 .progress {
@@ -770,7 +770,7 @@ margin: 0;
   height: 140px;
   font-size: 24px;
   line-height: 140px;
-  border: 4px solid #98DC95;
+  border: 4px solid #2563eb;
   border-radius: 100px;
   margin-bottom: 20px;
 }
@@ -781,7 +781,7 @@ margin: 0;
   list-style: none;
   padding: 0;
   margin: 70px 0 30px;
-  border: 1px solid #98DC95; 
+  border: 1px solid #2563eb; 
   padding: 8px;
   text-align: center;
   background: #FFFFFF;
@@ -792,7 +792,7 @@ margin: 0;
 }
 #pricing ul.pricing li.plan-header { 
   padding: 15px 15px 30px;
-  color: #3B8838 !important;
+  color: #2563eb !important;
   height: 225px;
 }
 #pricing ul.pricing li.plan-header .price-duration {
@@ -828,17 +828,17 @@ li.plan-purchase .btn {
   text-transform: uppercase;
 }
 #pricing ul.pricing.featured {
-  background: #98DC95; 
+  background: #2563eb; 
   border: 0;
   border: 1px solid #D0D0D0;
 }
 #pricing ul.pricing.featured  li.plan-header .price-duration{
-color: #3B8838;
+color: #2563eb;
 }
 #pricing ul.pricing.featured li.plan-header {
 }
 #pricing ul.pricing.featured li.plan-header .plan-name {
-  color: #3B8838;
+  color: #2563eb;
 }
 #contact-us {
   padding: 100px 0 10px;
@@ -848,7 +848,7 @@ color: #3B8838;
 }
 /*Contact*/
  .contact-info{
- background: #98DC95;
+ background: #2563eb;
  padding: 50px;
  margin-bottom: 50px;
  background: url('../images/img2.jpg');
@@ -880,7 +880,7 @@ width: 100px;
   padding-top: 30px;
   padding-bottom: 30px;
   color: #fff;
-  background: #3B8838;
+  background: #2563eb;
 }
 #footer a {
   color: #fff;
