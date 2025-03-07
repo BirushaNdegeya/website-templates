@@ -1,54 +1,55 @@
-# React + TypeScript + Vite
+# Website Templates - 100+ Free Editable Website Templates
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Inspiration
 
-Currently, two official plugins are available:
+We were inspired by libraries, but we want to strengthen the connections between people who already read books in order to create a real community.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What is Website Templates?
 
-## Expanding the ESLint configuration
+Website Templates offers a collection of over 100 free and fully customizable website templates. These templates can be used to quickly create professional-looking websites without requiring design or development skills.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Features
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Next.js**: A framework based on React for fast, server-side rendered web applications.
+- **TypeScript**: Ensures code reliability through static typing.
+- **Tailwind CSS**: A utility-first CSS framework for fast and flexible styling.
+- **Convex**: A full-stack backend framework.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Future Goals for Website Templates
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+We plan to add more templates, as well as features that will allow users to further customize their websites with ease. Additionally, we want to enable users to share their modifications and interact with other developers in the community.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## How to Get Started?
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/sofiatechnology/website-templates.git
+    ```
+2. **Install dependencies**:
+    ```bash
+    npm install
+    ```
+3. **Start the development server**:
+    ```bash
+    npm run dev
+    ```
+4. **Open your browser and go to** [http://localhost:3000](http://localhost:3000).
+
+## Project Structure
+
+- **src/**: The main code of the application.
+- **public/**: Static resources like images and icons.
+
+## Contributors
+
+<a href="https://github.com/sofiatechnology/website-templates/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=sofiatechnology/website-templates" />
+</a>
+
+## License
+
+This project is licensed under the **Apache-2.0** license.
+
+---
+
+For more information, visit the [GitHub repository for Website Templates](https://github.com/sofiatechnology/website-templates).
