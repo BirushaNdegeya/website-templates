@@ -7,6 +7,7 @@ import './css/index.css';
 import Layout from './layouts/layout';
 import Templates from './components/pages/templates';
 import Hero from './components/hero';
+import { basename } from 'path';
 
 
 const router = createBrowserRouter([
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
     element: <Layout />,
     children: [
       {
+
         path: "/",
         element: <Hero />
       },
