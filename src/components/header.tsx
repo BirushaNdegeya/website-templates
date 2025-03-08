@@ -2,50 +2,34 @@ import { useState } from "react";
 import { ModeToggle } from "./mode-toggle";
 import { Github } from "lucide-react";
 import { Input } from "./ui/input";
-import { Link } from 'react-router'
-import { Button } from "./ui/button";
+import { Link } from "react-router";
+
+
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <header className="bg-background text-foreground border-b border-border sticky top-0 z-50">
-      {/* Top banner */}
-      <div className="w-full bg-primary text-primary-foreground py-2 text-center">
-        <span className="inline-flex items-center gap-x-2">
-          🎉 Influence MUI's 2025 roadmap! Participate in the latest
-          <Button
-            variant="link"
-            className="font-medium text-primary hover:underline"
-          >
-            developer survey →
-          </Button>
-        </span>
-      </div>
       <nav className="mx-auto container">
         <div className="flex justify-between items-center h-14">
-          <div className="flex items-center">
+          <div className="flex items-center gap-6">
             {/* Logo */}
             <div className="flex items-center">
-              <a href="/" className="text-primary font-semibold text-xl">
-                Logo
-              </a>
+              <Link to="/" className="text-primary font-semibold text-xl">
+                SOFIA Tech
+              </Link>
             </div>
 
             {/* Navigation desktop */}
-            <div className="hidden md:flex items-center space-x-2">
-              <a href="#products" className="text-muted-foreground hover:text-foreground px-3 py-2">
-                Products
+            <div className="hidden md:flex items-center space-x-2 gap-6">
+
+              <Link to="/templates" className="text-muted-foreground hover:text-foreground py-2">
+                Templates
+              </Link>
+              <a href="#docs" className="text-muted-foreground hover:text-foreground py-2">
+                About Us
               </a>
-              <a href="#docs" className="text-muted-foreground hover:text-foreground px-3 py-2">
-                Docs
-              </a>
-              <a href="#pricing" className="text-muted-foreground hover:text-foreground px-3 py-2">
-                Pricing
-              </a>
-              <a href="#about" className="text-muted-foreground hover:text-foreground px-3 py-2">
-                About us
-              </a>
-              <a href="#blog" className="text-muted-foreground hover:text-foreground px-3 py-2">
-                Blog
+              <a href="#products" className="text-muted-foreground hover:text-foreground py-2">
+                Blogs
               </a>
             </div>
           </div>
