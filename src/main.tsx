@@ -5,7 +5,7 @@ import {
 } from 'react-router';
 import './css/index.css';
 import Layout from './layouts/layout';
-import App from './components';
+import Templates from './components/pages/templates';
 import Hero from './components/hero';
 
 
@@ -16,7 +16,11 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <App />
+        element: <Hero />
+      },
+      {
+        path: "/templates",
+        element: <Templates />
       }
     ]
   }

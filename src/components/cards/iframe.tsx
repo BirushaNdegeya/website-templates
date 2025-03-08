@@ -1,8 +1,9 @@
-import { Download, Fullscreen, Copy, GitFork, Check } from "lucide-react";
-import { Button } from "./ui/button";
+import { Download, Fullscreen, Copy, GitFork, Check, Code } from "lucide-react";
+import { Button } from "../ui/button";
 import { useRef, useState } from "react";
+import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
 
-export function Iframe({ templateLink }: { templateLink: string }) {
+export function Iframe({ templateLink, authorGithub, authorURLImage, github }: { templateLink: string, authorGithub: string, authorURLImage: string, github: string }) {
   const iframeRef = useRef<HTMLIFrameElement>(null);
   const [isCopied, setIsCopied] = useState(false);
 
@@ -47,51 +48,65 @@ export function Iframe({ templateLink }: { templateLink: string }) {
   };
 
   const handleFork = () => {
-    // Ici vous pouvez implémenter la logique de fork
-    // Par exemple, créer une copie du template dans l'espace de travail de l'utilisateur
-    console.log('Fork functionality to be implemented');
+    window.open(github, '_blank');
   };
 
   return (
     <div className="border border-border rounded-lg overflow-hidden">
       <div className="flex justify-between items-center border-b border-border p-2">
-        <div className="flex items-center gap-2">
-          <Button
-            variant="outline"
-            onClick={handleDownload}
-            title="Télécharger le template"
-          >
-            <Download className="w-4 h-4" />
-          </Button>
+        <div className="flex items-center justify-between w-full">
+          <div className="flex items-center gap-2">
+            <Button
+              variant="outline"
+              onClick={handleFork}
+              title="Fork le template"
+            >
+              <Code className="w-4 h-4" />
+            </Button>
+            <Button
+              variant="outline"
+              onClick={handleDownload}
+              title="Télécharger le template"
+            >
+              <Download className="w-4 h-4" />
+            </Button>
 
-          <Button
-            variant="outline"
-            onClick={handleFullscreen}
-            title="Voir en plein écran"
-          >
-            <Fullscreen className="w-4 h-4" />
-          </Button>
+            <Button
+              variant="outline"
+              onClick={handleFullscreen}
+              title="Voir en plein écran"
+            >
+              <Fullscreen className="w-4 h-4" />
+            </Button>
 
-          <Button
-            variant="outline"
-            onClick={handleCopyCode}
-            title={isCopied ? "Code copié!" : "Copier le code"}
-          >
-            {isCopied ? (
-              <Check className="w-4 h-4 text-green-500" />
-            ) : (
-              <Copy className="w-4 h-4" />
-            )}
-          </Button>
+            <Button
+              variant="outline"
+              onClick={handleCopyCode}
+              title={isCopied ? "Code copié!" : "Copier le code"}
+            >
+              {isCopied ? (
+                <Check className="w-4 h-4 text-green-500" />
+              ) : (
+                <Copy className="w-4 h-4" />
+              )}
+            </Button>
 
-          <Button
-            variant="outline"
-            onClick={handleFork}
-            title="Fork le template"
-          >
-            <GitFork className="w-4 h-4" />
-          </Button>
+            <Button
+              variant="outline"
+              onClick={handleFork}
+              title="Fork le template"
+            >
+              <GitFork className="w-4 h-4" />
+            </Button>
+          </div>
+          <a href={authorGithub} target="_blank">
+            <Avatar>
+              <AvatarImage src={authorURLImage} />
+              <AvatarFallback>A</AvatarFallback>
+            </Avatar>
+          </a>
         </div>
+
       </div>
       <div className="overflow-hidden">
         <iframe

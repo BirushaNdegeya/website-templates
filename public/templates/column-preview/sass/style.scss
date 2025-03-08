@@ -1,0 +1,35 @@
+@import "./main";
+@import "./variables";
+
+// Button
+
+button {
+   font: inherit;
+   border: 2px solid $transparentWhite;
+   background: $transparentWhite;
+   cursor: pointer;
+   padding: 1.125rem 2.125rem;
+   font-weight: 400;
+   border-radius: 22px;
+}
+
+button:hover {
+   background: transparent;
+   color: $transparentWhite;
+}
+
+// MEDIA QUERY
+
+@media (min-width: 922px) {
+   body {
+      display: flex;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+   }
+   .wrapper {
+      max-width: 920px;
+      margin: 0 auto;
+      flex-direction: row;
+   }
+}
