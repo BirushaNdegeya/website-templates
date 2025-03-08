@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+@import './_variables';
+
+// BASIC RESET
+
+*,
+*::after,
+*::before {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 100%;
+   font-family: sans-serif;
+   background: $veryLightGray;
+}
+
+body {
+   font-size: 15px;
+}
+
+// GENERAL STYLE
+
+p,
+h1 {
+   font-optical-sizing: auto;
+   font-style: normal;
+}
+
+p {
+   font-weight: 400;
+   font-family: "Lexend Deca";
+   color: $veryLightGray;
+}
+
+h1 {
+   font-family: "Big Shoulders Display";
+   font-weight: 700;
+   color: $transparentWhite;
+}
+
+// CONTAINER
+
+.wrapper {
+   width: 90%;
+   margin: 3rem auto;
+   border-radius: 8px;
+   overflow: hidden;
+   max-width: 375px;
+   display: flex;
+   flex-direction: column;
+}
+
+.row {
+   flex: 1;
+}
+
+.row {
+   padding: 3rem 3rem;
+}
+
+.row img, .row h1 {
+   margin-bottom: 38px;
+}
+
+.row p {
+   margin-bottom: 1.25rem;
+   line-height: 1.5;
+}
+
+.row h1 {
+   font-size: 2.5rem;
+}
+.row-1 {
+   background: $brightOrange;
+}
+
+.row-1 button {
+   color: $brightOrange;
+}
+
+.row-2 button {
+   color: $darkCyan;
+}
+
+.row-2 {
+   background: $darkCyan;
+}
+
+.row-3 {
+   background: $veryDarkCyan;
+}
+
+.row-3 button {
+   color: $veryDarkCyan;
+}
