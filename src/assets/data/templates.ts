@@ -23,12 +23,12 @@ export const templates: ITemplate[] = [
     link: '/templates/column-preview/index.html',
     github: "https://github.com/sofiatechnology/website-templates/blob/main/public/templates/column-preview"
   },
-  {
-    title: 'QR Code Component',
-    authorURLImage: 'https://avatars.githubusercontent.com/u/142086785?v=4',
-    authorGithub: 'https://github.com/BirushaNdegeya',
-    category: ['qr'],
-    link: '/templates/qr-code-component/index.html',
-    github: "https://github.com/sofiatechnology/website-templates/blob/main/public/templates/qr-code-component"
-  },
+  // {
+  //   title: 'QR Code Component',
+  //   authorURLImage: 'https://avatars.githubusercontent.com/u/142086785?v=4',
+  //   authorGithub: 'https://github.com/BirushaNdegeya',
+  //   category: ['qr'],
+  //   link: '/templates/qr-code-component/index.html',
+  //   github: "https://github.com/sofiatechnology/website-templates/blob/main/public/templates/qr-code-component"
+  // },
 ]
